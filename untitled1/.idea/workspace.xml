@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2700e92-7755-4116-9593-58facf738b34" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1enTQ4v3OY14d9KTPeHZJFANCrk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Study/黑马/我的资源/资料-并发编程/concurrent" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\untitled1\wx-pay\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\untitled1\main-pay\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainService" />
+      <module name="main-pay" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2700e92-7755-4116-9593-58facf738b34" name="Default Changelist" comment="" />
+      <created>1594956337272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594956337272</updated>
+      <workItem from="1594956341442" duration="3544000" />
+      <workItem from="1594960076530" duration="1861000" />
+      <workItem from="1595252374442" duration="676000" />
+      <workItem from="1595332263439" duration="645000" />
+      <workItem from="1599195303497" duration="601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="140" key="#Project_Structure" timestamp="1594956983980">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1594956983980" />
+    <state x="462" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594957329683">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="462" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1594957329683" />
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1594956785250">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1594956785250" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1595336518641">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1595336518641" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1594980177275">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594980177275" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1594980177274">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1594980177274" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1594980177274">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1594980177274" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1594980177275">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1594980177275" />
+    <state x="283" y="137" key="Maven.ArtifactSearchDialog" timestamp="1594956775159">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="283" y="137" key="Maven.ArtifactSearchDialog/0.0.1504.963@0.0.1504.963" timestamp="1594956775159" />
+    <state x="167" y="0" key="SettingsEditor" timestamp="1594961070718">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="167" y="0" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1594961070718" />
+    <state x="140" y="176" key="new project wizard" timestamp="1595252449677">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="176" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1595252449677" />
+  </component>
+</project>

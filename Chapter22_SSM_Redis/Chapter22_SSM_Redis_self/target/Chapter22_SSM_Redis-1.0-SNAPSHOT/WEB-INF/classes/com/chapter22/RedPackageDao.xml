@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chapter22.dao.RedPacketDao">
+    <select id="getRedPackage" parameterType="long" resultType="com.chapter22.pojo.RedPacket">
+        select id,user_id as userId,amount,send_date as sendDate
+        ,total,unit_amount as unitAmount ,stock,version,note
+        from T_RED_PACKET where id =#{id} for update ;
+    </select>
+
+
+    <update id ="decreaseRedPackage" parameterType="long">
+update T_RED_PACKET set stock=stock-1 where id =#{id};
+
+    </update>
+</mapper>
+
+
+<!--   id                   int(12)                        not null auto_increment,
+   user_id              int(12)                        not null,
+   amount               decimal(16,2)                  not null,
+   send_date            timestamp                      not null,
+   total                int(12)                        not null,
+   unit_amount          decimal(12)                    not null,
+   stock                int(12)                        not null,
+   version              int(12) default 0              not null,
+   note                 varchar(256)                    null,
+   primary key clustered (id)-->

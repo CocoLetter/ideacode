@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chapter22.dao.UserRedPacketDao">
+    <insert id="grapRedPacket" parameterType="com.chapter22.pojo.UserRedPacket" useGeneratedKeys="true" keyProperty="id">
+        insert into T_USER_RED_PACKET(red_packet_id,user_id ,amount,grab_time,note)
+        values(#{redPackageId},#{userId},#{amount},now(),#{note})
+    </insert>
+
+
+</mapper>
+
+
+<!-- create table T_USER_RED_PACKET
+(
+   id                   int(12)                        not null auto_increment,
+   red_packet_id        int(12)                        not null,
+   user_id              int(12)                        not null,
+   amount               decimal(16,2)                  not null,
+   grab_time            timestamp                      not null,
+   note                 varchar(256)                   null,
+    primary key clustered (id)
+);
+ Long id;
+    Long redPackageId;
+    Long userId;
+    Long amount;
+    Timestamp grabTime;
+    String note;
+
+
+-->

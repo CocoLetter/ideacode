@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3bbc567-a318-4968-b645-825d384be6c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1gymQdrnLKmZjKam6TeTwNxnU67" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\0903-mybatis-复习day03_mybatis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0903-mybatis-复习day03_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test1.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3bbc567-a318-4968-b645-825d384be6c2" name="Default Changelist" comment="" />
+      <created>1599095191533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599095191533</updated>
+      <workItem from="1599095197212" duration="1645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1461" height="345" key="GridCell.Tab.0.bottom" timestamp="1599096847680">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="345" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599096847680" />
+    <state width="1461" height="345" key="GridCell.Tab.0.center" timestamp="1599096847679">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="345" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1599096847679" />
+    <state width="1461" height="345" key="GridCell.Tab.0.left" timestamp="1599096847679">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="345" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1599096847679" />
+    <state width="1461" height="345" key="GridCell.Tab.0.right" timestamp="1599096847680">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="345" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1599096847680" />
+  </component>
+</project>

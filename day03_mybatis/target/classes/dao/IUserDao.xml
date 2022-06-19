@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IUserDao">
+
+<!--
+    <resultMap id="userMap" type="domain.User">
+        &lt;!&ndash;主键字段的对应&ndash;&gt;
+        <id property="userId" column="id"></id>
+        &lt;!&ndash;非主键字段的对应&ndash;&gt;
+        <result property="userName" column="username"></result>
+        <result property="userAddress" column="address"></result>
+        <result property="userBirthday" column="birthday"></result>
+        <result property="userSex" column="sex"></result>
+    </resultMap>-->
+
+    <select id="findAll"  resultType="domain.User">
+        select * from mybatis;
+    </select>
+
+
+    <insert id="saveUser" parameterType="domain.User">
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();/*返回最后一次插入到数据的id keyproperty对应实体类*/
+        </selectKey>
+        insert into mybatis(username,birthday,sex,address)
+        values(#{username},#{birthday},#{sex},#{address});
+    </insert>
+
+    <update id="updateUser" parameterType="domain.User">
+        update mybatis set birthday=#{birthday} where id= #{id};
+    </update>
+
+
+    <delete id="deleteUser" parameterType="int">
+        delete from mybatis where id =#{canshu};/*只有一个参数时,这个参数名称可以随意写*/
+    </delete>
+
+    <select id="findById" parameterType="int" resultType="domain.User">
+        select * from mybatis where id=#{id};
+    </select>
+
+    <select id="findByName" parameterType="String" resultType="domain.User">
+        select * from mybatis where username like #{name};
+    </select>
+
+
+    <!--获取用户的总记录条数-->
+    <select id="findTotal" resultType="int">
+        select count(id) from mybatis;
+    </select>
+
+
+    <select id="findUserByVo" resultType="domain.User" parameterType="domain.QueryVo">
+        select * from mybatis where username like #{user.username}
+    </select>
+
+
+    <select id="findByUser" resultType="user" parameterType="user">
+        select * from mybatis where 1=1
+        <if test="username!=null and username != '' ">
+        and username like #{username}
+        </if>
+        <if test="address != null">
+        and address like #{address}
+        </if>
+    </select>
+
+</mapper>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcd5af51-cc74-446f-9d25-210560bdbd58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Study\maven\maven-repository" />
+        <option name="mavenHome" value="C:/Study/maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\Study\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1fzd5xo1FcHwU3VPZoSDrnEURvB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution090868">
+    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串String.Codec" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution090868" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串String.Solution090868" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution7676868" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串String.Solution7676868" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution78786" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串String.Solution78786" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solution6879" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串String.solution6879" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="字符串String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution090868" />
+        <item itemvalue="Application.Codec" />
+        <item itemvalue="Application.Solution7676868" />
+        <item itemvalue="Application.Solution78786" />
+        <item itemvalue="Application.solution6879" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcd5af51-cc74-446f-9d25-210560bdbd58" name="Default Changelist" comment="" />
+      <created>1597224675926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597224675926</updated>
+      <workItem from="1597224690014" duration="6744000" />
+      <workItem from="1597408728434" duration="4534000" />
+      <workItem from="1597586616046" duration="1210000" />
+      <workItem from="1597680588347" duration="2882000" />
+      <workItem from="1597836983483" duration="6670000" />
+      <workItem from="1597888299143" duration="1698000" />
+      <workItem from="1598883904175" duration="610000" />
+      <workItem from="1599195937569" duration="17670000" />
+      <workItem from="1601886599834" duration="8793000" />
+      <workItem from="1601949574897" duration="2341000" />
+      <workItem from="1601956342381" duration="167000" />
+      <workItem from="1601956551795" duration="9123000" />
+      <workItem from="1602002337896" duration="938000" />
+      <workItem from="1602069460375" duration="10026000" />
+      <workItem from="1602124676984" duration="11150000" />
+      <workItem from="1602172454078" duration="405000" />
+      <workItem from="1602215671077" duration="8652000" />
+      <workItem from="1602433549269" duration="1374000" />
+      <workItem from="1602650161622" duration="11005000" />
+      <workItem from="1602935487892" duration="7514000" />
+      <workItem from="1603087649302" duration="11218000" />
+      <workItem from="1605279970483" duration="4137000" />
+      <workItem from="1605346083800" duration="3765000" />
+      <workItem from="1605403150119" duration="10207000" />
+      <workItem from="1605447994163" duration="1727000" />
+      <workItem from="1605453035165" duration="2859000" />
+      <workItem from="1605491762584" duration="8414000" />
+      <workItem from="1605575173899" duration="4779000" />
+      <workItem from="1605664388916" duration="3793000" />
+      <workItem from="1605876931500" duration="5167000" />
+      <workItem from="1605890193137" duration="54000" />
+      <workItem from="1606032167332" duration="9910000" />
+      <workItem from="1606197660075" duration="2391000" />
+      <workItem from="1606207620061" duration="5592000" />
+      <workItem from="1606265966885" duration="7793000" />
+      <workItem from="1606483629391" duration="784000" />
+      <workItem from="1606559413418" duration="2918000" />
+      <workItem from="1606617614495" duration="13188000" />
+      <workItem from="1606709980751" duration="5862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="140" key="#Inspections" timestamp="1601954404631">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Inspections/0.0.1504.963@0.0.1504.963" timestamp="1601954404631" />
+    <state x="345" y="140" key="#Project_Structure" timestamp="1601957187947">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1601957187947" />
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1606034988074">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1606034988074" />
+    <state x="375" y="160" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601955614666">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="375" y="160" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1504.963@0.0.1504.963" timestamp="1601955614665" />
+    <state x="537" y="340" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601957329820">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="537" y="340" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1504.963@0.0.1504.963" timestamp="1601957329820" />
+    <state x="483" y="236" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1601956945607">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="483" y="236" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1504.963@0.0.1504.963" timestamp="1601956945607" />
+    <state x="651" y="411" key="#debugger.expression.dialog" timestamp="1606711300417">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="651" y="411" key="#debugger.expression.dialog/0.0.1504.963@0.0.1504.963" timestamp="1606711300417" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1606735021924">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1606735021924" />
+    <state width="1461" height="325" key="GridCell.Tab.0.bottom" timestamp="1606752634550">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="325" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1606752634550" />
+    <state width="1461" height="325" key="GridCell.Tab.0.center" timestamp="1606752634550">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="325" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1606752634550" />
+    <state width="1461" height="325" key="GridCell.Tab.0.left" timestamp="1606752634550">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="325" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1606752634550" />
+    <state width="1461" height="325" key="GridCell.Tab.0.right" timestamp="1606752634550">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="325" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1606752634550" />
+    <state width="1461" height="362" key="GridCell.Tab.1.bottom" timestamp="1606752634399">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="362" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1606752634399" />
+    <state width="1461" height="362" key="GridCell.Tab.1.center" timestamp="1606752634398">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="362" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1606752634398" />
+    <state width="1461" height="362" key="GridCell.Tab.1.left" timestamp="1606752634391">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="362" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1606752634391" />
+    <state width="1461" height="362" key="GridCell.Tab.1.right" timestamp="1606752634398">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="362" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1606752634398" />
+    <state x="334" y="113" key="SettingsEditor" timestamp="1606741171513">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="334" y="113" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1606741171513" />
+    <state x="474" y="223" width="576" height="524" key="StructurePopup" timestamp="1601888060219">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="474" y="223" width="576" height="524" key="StructurePopup/0.0.1504.963@0.0.1504.963" timestamp="1601888060219" />
+    <state x="460" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606093722091">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="460" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1504.963@0.0.1504.963" timestamp="1606093722091" />
+    <state x="93" y="93" width="1319" height="777" key="dock-window-1" timestamp="1605415052805">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="93" y="93" width="1319" height="777" key="dock-window-1/0.0.1504.963@0.0.1504.963" timestamp="1605415052805" />
+    <state x="140" y="91" key="new project wizard" timestamp="1606735064905">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="91" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1606735064905" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1606741182657">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1606741182657" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk-13/lib/src.zip!/java.base/java/util/LinkedList.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/src/Solution.java</url>
+          <line>650</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>580</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>467</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>405</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>396</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>385</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/集合/test/Test0.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/二分/Solution.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/二分/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>411</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>354</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/字符串String/Solution.java</url>
+          <line>526</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$Solution__1_.ic" NAME="Solution (1) Coverage Results" MODIFIED="1606629303380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>字符串String.*</FILTER>
+    </SUITE>
+  </component>
+</project>

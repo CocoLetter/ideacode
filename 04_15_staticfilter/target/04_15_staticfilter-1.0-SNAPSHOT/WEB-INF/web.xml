@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+<display-name>Archetype Created Web Application</display-name>
+
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <!--设置配置文件的路径-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+
+
+  <!--本项目使用原始servlet配置方法没有使用springMvc-->
+
+
+
+  <servlet>
+    <servlet-name>BookServletFindAll</servlet-name>
+    <servlet-class>cn.servlet.BookServletFindAll</servlet-class>
+    <!--启动服务器，创建该servlet-->
+    <!--<load-on-startup>1</load-on-startup>-->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookServletFindAll</servlet-name>
+    <url-pattern>/BookServletFindAll</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>BookServletFindByCata</servlet-name>
+    <servlet-class>cn.servlet.BookServletFindByCata</servlet-class>
+    <!--启动服务器，创建该servlet-->
+    <!--<load-on-startup>1</load-on-startup>-->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookServletFindByCata</servlet-name>
+    <url-pattern>/BookServletFindByCata</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <display-name>StaticFilter</display-name>
+    <filter-name>StaticFilter</filter-name>
+    <filter-class>cn.filter.Filter1</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>StaticFilter</filter-name>
+    <servlet-name>BookServletFindAll</servlet-name>
+    <servlet-name>BookServletFindByCata</servlet-name>
+  </filter-mapping>
+
+
+
+
+</web-app>

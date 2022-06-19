@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b899e3e-6e36-4678-bda3-3d4f0dc408a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1ex9bpUh3o8FwpbTgDonjzN0aMH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Study/黑马/黑马mysql高级/MySQL 高级 - day-04/代码/基本工程" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mianshi.Answer2" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mianshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Answeri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mianshi.Answeri" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mianshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mianshi.Test" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mianshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mianshi.ZeroEvenOdd" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mianshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Answeri" />
+        <item itemvalue="Application.ZeroEvenOdd" />
+        <item itemvalue="Application.Answer2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b899e3e-6e36-4678-bda3-3d4f0dc408a2" name="Default Changelist" comment="" />
+      <created>1595252450760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595252450760</updated>
+      <workItem from="1595252454846" duration="1512000" />
+      <workItem from="1595332295888" duration="2587000" />
+      <workItem from="1595383834902" duration="22000" />
+      <workItem from="1595385466386" duration="23709000" />
+      <workItem from="1595471020007" duration="4698000" />
+      <workItem from="1595643455714" duration="1806000" />
+      <workItem from="1595661120114" duration="5165000" />
+      <workItem from="1595727303731" duration="1678000" />
+      <workItem from="1595739451993" duration="2237000" />
+      <workItem from="1595827079099" duration="7388000" />
+      <workItem from="1595899145348" duration="17716000" />
+      <workItem from="1595988736599" duration="21611000" />
+      <workItem from="1596071376977" duration="21012000" />
+      <workItem from="1597029915605" duration="6944000" />
+      <workItem from="1597139083355" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1596100772210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1596100772210" />
+    <state x="554" y="293" key="FileChooserDialogImpl" timestamp="1597139100124">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="554" y="293" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1597139100124" />
+    <state width="1461" height="218" key="GridCell.Tab.0.bottom" timestamp="1597076550490">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="218" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1597076550490" />
+    <state width="1461" height="218" key="GridCell.Tab.0.center" timestamp="1597076550489">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="218" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1597076550489" />
+    <state width="1461" height="218" key="GridCell.Tab.0.left" timestamp="1597076550488">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="218" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1597076550488" />
+    <state width="1461" height="218" key="GridCell.Tab.0.right" timestamp="1597076550489">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="218" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1597076550489" />
+    <state width="1461" height="214" key="GridCell.Tab.1.bottom" timestamp="1596040782956">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="214" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1596040782956" />
+    <state width="1461" height="214" key="GridCell.Tab.1.center" timestamp="1596040782956">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="214" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1596040782956" />
+    <state width="1461" height="214" key="GridCell.Tab.1.left" timestamp="1596040782956">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="214" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1596040782956" />
+    <state width="1461" height="214" key="GridCell.Tab.1.right" timestamp="1596040782956">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="214" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1596040782956" />
+    <state x="254" y="113" key="SettingsEditor" timestamp="1597030079100">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="113" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1597030079100" />
+    <state x="474" y="223" width="576" height="524" key="StructurePopup" timestamp="1596036135989">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="474" y="223" width="576" height="524" key="StructurePopup/0.0.1504.963@0.0.1504.963" timestamp="1596036135989" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1597042752134">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1597042752134" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThreadPool1.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1213.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

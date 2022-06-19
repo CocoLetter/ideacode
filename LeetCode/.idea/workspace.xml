@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48e48da1-4a5e-4353-be9e-68ec096f3b2f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1ckE6LG16MHkLwOPn0VpJP1YRPB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+  </component>
+  <component name="RunManager" selected="Application.ShortTest">
+    <configuration name="ABCABCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ABCABCA" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortTest" />
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atoi" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solution.reverseVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="solution" />
+      <option name="METHOD_NAME" value="reverseVowels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ABCABCA" />
+      <item itemvalue="Application.atoi" />
+      <item itemvalue="Application.ShortTest" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.solution.reverseVowels" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShortTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.atoi" />
+        <item itemvalue="Application.ABCABCA" />
+        <item itemvalue="JUnit.solution.reverseVowels" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48e48da1-4a5e-4353-be9e-68ec096f3b2f" name="Default Changelist" comment="" />
+      <created>1591064014908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591064014908</updated>
+      <workItem from="1591064018665" duration="9036000" />
+      <workItem from="1591097993237" duration="10369000" />
+      <workItem from="1591152489503" duration="6013000" />
+      <workItem from="1591361506868" duration="5504000" />
+      <workItem from="1591588932505" duration="781000" />
+      <workItem from="1591710961728" duration="676000" />
+      <workItem from="1591762203519" duration="1195000" />
+      <workItem from="1592053055022" duration="333000" />
+      <workItem from="1594389732016" duration="2426000" />
+      <workItem from="1594431576165" duration="5644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594466413070">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="207" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1594466413070" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1591711039762">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1591711039762" />
+    <state width="1446" height="235" key="GridCell.Tab.0.bottom" timestamp="1594485097677">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1446" height="235" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594485097677" />
+    <state width="1446" height="235" key="GridCell.Tab.0.center" timestamp="1594485097677">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1446" height="235" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1594485097677" />
+    <state width="1446" height="235" key="GridCell.Tab.0.left" timestamp="1594485097677">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1446" height="235" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1594485097677" />
+    <state width="1446" height="235" key="GridCell.Tab.0.right" timestamp="1594485097677">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1446" height="235" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1594485097677" />
+    <state width="1461" height="2" key="GridCell.Tab.1.bottom" timestamp="1594396804004">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="2" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594396804004" />
+    <state width="1461" height="2" key="GridCell.Tab.1.center" timestamp="1594396804004">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="2" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1594396804004" />
+    <state width="1461" height="2" key="GridCell.Tab.1.left" timestamp="1594396804004">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="2" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1594396804004" />
+    <state width="1461" height="2" key="GridCell.Tab.1.right" timestamp="1594396804004">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="2" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1594396804004" />
+    <state x="254" y="124" key="SettingsEditor" timestamp="1591763054323">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1591763054323" />
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591105905762">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1504.963@0.0.1504.963" timestamp="1591105905762" />
+    <state x="409" y="222" key="run.anything.popup" timestamp="1591105967910">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="409" y="222" key="run.anything.popup/0.0.1504.963@0.0.1504.963" timestamp="1591105967910" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/atoi.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

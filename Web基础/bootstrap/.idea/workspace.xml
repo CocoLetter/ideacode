@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jackson:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="628789cc-8130-42b1-ac4d-7a38abe1ce12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YKOaFfV59uIt225QddpWbLQg3D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JQuery" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\Web基础\bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\Web基础\JQuery" />
+      <recent name="C:\IdeaCode\Web基础\bootstrap" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="628789cc-8130-42b1-ac4d-7a38abe1ce12" name="Default Changelist" comment="" />
+      <created>1582687880158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582687880158</updated>
+      <workItem from="1582687881538" duration="6950000" />
+      <workItem from="1582708337973" duration="10869000" />
+      <workItem from="1582774591470" duration="13631000" />
+      <workItem from="1582851887613" duration="15761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="249" key="#Project_Structure" timestamp="1582879657600">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="263" y="249" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1582879657600" />
+    <state x="208" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582882251661">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="208" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1582882251661" />
+    <state x="375" y="160" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582878988576">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="375" y="160" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1504.963@0.0.1504.963" timestamp="1582878988576" />
+    <state x="345" y="140" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1582878888942">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1504.963@0.0.1504.963" timestamp="1582878888942" />
+    <state x="491" y="414" key="FileChooserDialogImpl" timestamp="1582879806193">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="491" y="414" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1582879806193" />
+    <state width="1002" height="256" key="GridCell.Tab.0.bottom" timestamp="1582882255979">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1002" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1582882255979" />
+    <state width="1002" height="256" key="GridCell.Tab.0.center" timestamp="1582882255979">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1002" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1582882255979" />
+    <state width="1002" height="256" key="GridCell.Tab.0.left" timestamp="1582882255979">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1002" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1582882255979" />
+    <state width="1002" height="256" key="GridCell.Tab.0.right" timestamp="1582882255979">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1002" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1582882255979" />
+    <state x="137" y="113" key="SettingsEditor" timestamp="1582879826405">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="137" y="113" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1582879826405" />
+    <state x="323" y="127" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1582879672684">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="323" y="127" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1504.963@0.0.1504.963" timestamp="1582879672684" />
+    <state x="326" y="84" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582794797088">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="326" y="84" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1504.963@0.0.1504.963" timestamp="1582794797088" />
+    <state x="140" y="92" key="new project wizard" timestamp="1582879918031">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="92" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1582879918031" />
+    <state x="741" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1582856418479">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="741" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1582856418479" />
+  </component>
+</project>

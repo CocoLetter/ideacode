@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="baosi">
+    <output-path>$PROJECT_DIR$/out/artifacts/baosi</output-path>
+    <root id="archive" name="baosi.war">
+      <element id="artifact" artifact-name="baosi:war exploded" />
+    </root>
+  </artifact>
+</component>

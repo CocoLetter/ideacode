@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+    <!-- SQL语句 -->
+    <!--配置查询所有-->
+    <!--id要和对应接口的方法名称保持一致，命名空间和id保证了该条语句的一致性-->
+    <select id="findAll" resultType="user">
+        select * from mybatis;
+    </select>
+
+    <select id="findByName" parameterType="String" resultType="user">
+        select * from mybatis where username like #{name};
+    </select>
+
+
+    <sql id="studentProperties"><!--sql片段-->
+		select stud_id as studId, name,
+		email, dob, phone from students
+	</sql>
+
+</mapper>

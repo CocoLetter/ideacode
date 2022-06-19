@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            align-self: center;
+            width:200px;
+            height:100px;
+            border:1px solid pink;
+        }
+         table,th,td{
+            border:1px solid pink;
+            border-collapse: collapse;
+             text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>编号</th>
+        <th>名字</th>
+        <th>成绩</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>90</td>
+    </tr>
+</table>
+<br/>
+
+<table border="1" align="center" width="50%"  cellspacing="0">
+    <caption>学生信息表</caption>
+    <tr bgcolor="#ff7f50" align="center">
+        <td>编号</td>
+        <td>名字</td>
+        <td>成绩</td>
+    </tr>
+    <tr bgcolor="#7fff00" align="left">
+        <td>1</td>
+        <td>张三</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>90</td>
+    </tr>
+</table>
+
+<br>
+<br>
+
+<form action="Lean.html" method="get" name="name" target="_blank">
+    First name: <input type="text" name="firstname" value="请输入名字"><br>
+    Last name : <input type="text" name="lastname" value="请输入名字"><br>
+    <label for="pwd">Password:</label> <input type="password" name="pwd" id="pwd" placeholder="请输入密码"><br>
+    <input type="radio" name="sex" value="male" checked="checked">Male<br>
+    <input type="radio" name="sex" value="female">Female<br>
+    <input type="radio" name="sex" value="middle">Middle<br>
+    <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car<br>
+
+    <br> <br> <br>
+    图片：<input type="file" name="file">
+    <br> <br> <br>
+    隐藏域：<input type="hidden" name="id" value="this">
+    <br> <br> <br>
+    <input type="button" name="button" value="button">
+    <br> <br> <br>
+    <input type="image" src="Snipaste_2020-02-14_1940.png" name="image" value="image">
+    <br> <br> <br>
+    <input type="color" name="color" value="color">
+    <br> <br> <br>
+    <input type="submit" value="Submit">
+    <br> <br> <br>
+    日期:<input type="date" name="birthday">
+    <br> <br> <br>
+    <input type="datetime-local" name="birthday">
+    <br> <br> <br>
+    email:<input type="email" name="email">
+    <br> <br> <br>
+    省份<select name="province">
+            <option>请选择</option>
+            <option value="1">河南</option>
+            <option value="2">江西</option>
+            <option value="3">湖北</option>
+            <option value="4">浙江</option>
+        </select>
+
+    <br> <br> <br>
+
+    自我描述：<br>
+    <textarea cols="20" rows="10" name="textarea"  ></textarea>
+    <br> <br> <br>
+
+    <input type="submit" value="Submit">
+    <br> <br> <br>
+</form>
+<br> <br> <br>
+
+<p>
+    我们在每天早上 <time>9:00</time> 开始营业。
+</p>
+
+<p>
+    我在 <time datetime="2010-02-11">情人节</time> 有个约会。
+</p>
+<br> <br> <br>
+
+这段文本包含 <sup>上标</sup>
+
+The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
+<!--可以在 <abbr> 标签中使用全局的 title 属性，这样就能够在鼠标指针移动到 <abbr> 元素上时显示出简称/缩写的完整版本。-->
+
+<pre>
+     这个文本是打字机文本。
+此例演示如何使用 pre 标签
+对空行和    空格
+进行控制
+
+</html>

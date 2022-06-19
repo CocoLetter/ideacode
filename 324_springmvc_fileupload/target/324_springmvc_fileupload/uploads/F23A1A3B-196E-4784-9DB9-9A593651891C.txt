@@ -1,0 +1,53 @@
+Application and development direction of belt grinding technology
+Abstract: This paper introduces belt grinding, and expounds technology development of belt grinding at home and abroad.
+Key words: Abrasive belt; Grinding; mechanism; Direction of development
+
+1 Introduction
+Abrasive belts, that is, special abrasive tools that use abrasives to bond abrasives to a soft substrate, are mainly cut by special abrasive grains with cutting edges on the substrate. Abrasive belt grinding is a kind of grinding processing technology that uses this method to produce relative friction by contacting the workpiece with a high-speed moving abrasive belt corresponding to a workpiece of different geometries. In modern industrial processing, with the development of automobiles, building materials, aerospace and other industries, the precision and integrity of metal and non-metallic materials, especially difficult-to-abrasive materials such as stainless steel and alloys, are becoming increasingly high. Belt grinding, a grinding technique known as "universal grinding" and "cold grinding", has also received increasing attention.
+
+
+
+Application of belt grinding technology
+
+Because of its unique and flexible grinding method, abrasive belt grinding is different from other grinding methods and can be used in various industrial production fields.
+
+It can not only process non-ferrous metal materials that can be processed by grinding wheels, but also has a good fit for the processing of wood, stone, plastic, leather and other non-metal materials.It also has great processing advantages for heat-resistant and difficult-to-wear materials. Efficient and precise machining methods. In addition, abrasive belt grinding can not only process surface grinding, internal and external surface grinding of workpieces, but also small, large or special-shaped parts with high surface processing accuracy requirements.
+
+Compared with other methods, the abrasive belt grinding method is more flexible.The grinding equipment has various forms and various types. Commonly, there are portable abrasive belt machines, universal abrasive belt machines, desktop abrasive belt machines, cylindrical abrasive belt grinding machines, and flat abrasive belts. Grinders, centerless belt grinders, internal belt grinders, etc.
+
+Abrasive tool styles can also produce different specifications and types of products according to customer needs.For example, 
+special-shapedcoated abrasive tools are remanufactured using abrasive belts as raw materials. The abrasive belt is blanked and cut into various shapes of abrasive belt sheets.Then several sheets are arranged and combined on a metal or non-metal substrate in a regular pattern, or wound on a base shaft. The sheet and the substrate are glued together to form a variety of coated abrasives.
+
+
+
+
+Core technologies development direction of abrasive belt grinding
+
+Basic Research on Grinding Mechanism of Belt
+
+Although a lot of research on the mechanism of belt grinding have be done   by the scientists and engineers from various countries since the last century,because the theoretical intersection involves multiple disciplines such as materials, machinery, chemistry, physics, mathematics, etc., the rules are very complicated and the grinding effect Affected by many factors such as the environment, there is still no complete theory of abrasive belt grinding. Establishing the theory of grinding parameters that can characterize the grinding process and the nature of grinding phenomena, and achieve the corresponding surface quality and accuracy, is the focus of research in various countries.
+
+
+Research on new belt technology and new products
+Belt quality is a rigid standard reflecting the development of belt grinding technology. New technologies and new products are undoubtedly the top priority. Based on the three elements of abrasive belt products, the development direction of abrasive belt products has the following three points.
+1. The development and application of new coated abrasives, such as SG abrasives, TG abrasives, alumina corundum abrasives, composite abrasives, and stacked abrasives.
+2. Modification and innovation of adhesives, how different types of abrasive belts can improve the performance of adhesives, such as how the primer increases flexibility and reduces brittleness, how compounding improves grip and hardness, research and development of super coatings with different effects
+3. R & D and innovation of belt substrates, such as the research and application of heavy-duty super-strength polyacetate cloth substrates, high-strength super-hard abrasive belt substrates, metal substrates, metal and fiber composite substrates, etc.
+
+
+
+Research on Automation Technology of Belt Grinder and Formulation of National Standard
+
+The main reason that China's abrasive belt failed to show its advantages lies in the development of grinding machines. There are two basic reasons for this.
+1. The first is the development of high-speed and ultra-high-speed precision belt grinding machines with high-precision CNC automation technology. In Germany, the maximum linear speed of belt grinding can be close to 10 m / s. The surface roughness Ra has reached 0.01-0.025um, and automated production has been achieved. This type of high-precision technology is still in the research and development stage in China.
+2. The second is the formulation of national standards for abrasive belt grinders. At present, the structure, parameters, accuracy and rigidity standards of domestically produced grinders in China are different. The surface quality and accuracy of this product have greatly hindered the market circulation of products and the promotion and application of new technologies. Therefore, the technical innovation and standardization of abrasive belt grinding machines are of great significance to the development of industrialization of abrasive belt grinding in China.
+
+
+summary
+
+Belt grinding is an efficient grinding and polishing process, which has a wide range of uses and has high economic and application value. However, in general, there is a certain gap between domestic and foreign countries in both the theoretical study of abrasive belt grinding and product manufacturing. At present, people in the domestic industry are strengthening their research on the theory of abrasive belt grinding technology, and are striving to make breakthroughs in new product and technology research and development. With the transformation of the enterprise, they can get rid of the existing low-cost, low-profit traditional low-profit traditional backward belt products in China. Profitable operating model. Enterprises should also cooperate with universities to attract high-tech talents, promote the transformation of scientific research results into productivity, enable the new technology of abrasive belt grinding to be applied in factories, combine scientific research and production, promote production with scientific research, and ensure research with production, Deep people, make development move towards a virtuous circle.
+
+
+
+
+

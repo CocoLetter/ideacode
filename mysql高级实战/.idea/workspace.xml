@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f866286a-a309-4237-a60d-7311040df4b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1fwsPXpX4f3USNopVlBF8G7UtDP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Study/黑马/黑马mysql高级/MySQL 高级 - day-04/代码/基本工程/itcast_log_management/pom.xml" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f866286a-a309-4237-a60d-7311040df4b2" name="Default Changelist" comment="" />
+      <created>1597140465593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597140465593</updated>
+      <workItem from="1597140469357" duration="905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="140" key="#Project_Structure" timestamp="1597140483821">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1597140483821" />
+    <state x="208" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597140816341">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="208" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1597140816341" />
+    <state x="533" y="171" key="FileChooserDialogImpl" timestamp="1597140565879">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="171" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1597140565879" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1597141375091">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1597141375091" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1597141375090">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1597141375090" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1597141375089">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1597141375089" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1597141375090">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1597141375090" />
+    <state x="233" y="56" key="SettingsEditor" timestamp="1597141184304">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="233" y="56" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1597141184304" />
+    <state x="140" y="91" key="new project wizard" timestamp="1597140500028">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="91" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1597140500028" />
+  </component>
+</project>

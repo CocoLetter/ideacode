@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="jquery-3.4.1.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $.post("demo_test_post.php",{
+                        name:"菜鸟教程",
+                        url:"http://www.runoob.com"
+                    },
+                    function(data,status){
+                        alert("数据: \n" + data + "\n状态: " + status);
+                    });
+            });
+
+            $("#btn2").click(function(){
+                $.get("demo_test.php",{
+                    name:"菜鸟教程",
+                    url:"http:www.runoob.com"
+                },
+                function(data,status){
+                    alert("数据：\n"+data+"状态：\n"+status);
+                })
+
+
+
+            })
+
+        });
+    </script>
+
+
+</head>
+<body>
+
+<div id="div1"><h2>使用 jQuery AJAX 修改该文本</h2></div>
+<button id="btn1">获取外部内容</button>
+<button id="btn2">获取外部内容</button>
+
+
+</body>
+</html>

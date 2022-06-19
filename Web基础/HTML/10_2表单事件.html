@@ -1,0 +1,191 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<script>
+    function myFunction() {
+        alert("表单已提交");
+        return false;
+    }
+    // window.oload=function(){
+    //
+    //     document.getElementById("form").onsubmit=myFunction;
+    // }
+</script>
+
+<p>当提交表单是，触发函数并弹出提示信息。</p>
+<form id ="form" action="css.html" onsubmit="myFunction()" method="get">//函数没有运行,表单提交
+    输入名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>-->
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<script>
+    function myFunction() {
+        alert("表单已提交");
+        return false;
+    }
+
+</script>
+
+<p>当提交表单是，触发函数并弹出提示信息。</p>
+<form id ="form" action="css.html" onsubmit="myFunction()" method="get">//函数运行了 表单提交
+    输入名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<script>
+    function myFunction() {
+        alert("表单已提交");
+        return false;
+    }
+</script>
+
+<p>当提交表单是，触发函数并弹出提示信息。</p>
+<form id ="form" action="css.html" onsubmit="return myFunction()" method="get">//函数运行了 表单没有提交
+    输入名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>-->
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+
+<p>当提交表单是，触发函数并弹出提示信息。</p>
+<form id ="form" action="css.html"  method="get">
+    输入名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+
+
+<script>
+    function myFunction() {
+        alert("表单已提交");
+        return false;
+    }
+    document.getElementById("form").onsubmit=myFunction;//函数运行了 表单没有提交
+
+</script>
+
+</body>
+</html>-->
+
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+
+<p>当提交表单是，触发函数并弹出提示信息。</p>
+<form id ="form" action="css.html"  method="get">
+    输入名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+
+
+<script>
+    // function myFunction() {
+    //     alert("表单已提交");
+    //     return flase;
+    // }
+    // document.getElementById("form").onsubmit=myFunction();
+    // alert(document.getElementById("form").onsubmit)
+    // 函数最先运行 表单提交  这里属于  这里函数带上括号会先执行函数的将false返回给document.getElementById("form").onsubmit事件
+    // 由于事件只接受函数 因此document.getElementById("form").onsubmit==null 当提交表单的时候会正常提交
+
+    function myFunction() {
+        alert("表单已提交");
+        return flasefunction;
+    }
+    var flasefunction=function(){
+        return false;
+    }
+    document.getElementById("form").onsubmit=myFunction();
+    /*这里会把函数falsefunction赋给onsubmit事件，这样表单提交时会自动调用这个函数
+    并返回false阻止提交表单*/
+    alert(document.getElementById("form").onsubmit)
+
+
+</script>
+
+</body>
+</html>-->
+
+
+<!--<span style="background-color: red" >hello</span>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p>局部变量计数。</p>
+<button type="button" onclick="myFunction()">计数!</button>
+<p id="demo">0</p>
+<script>
+    var add = (function () {
+        var counter = 0;
+        alert("初始化add")
+        return function () {return counter += 1;}
+    })();
+    function myFunction(){
+        alert("Hello\nHow are you?");
+        document.getElementById("demo").innerHTML = add();
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

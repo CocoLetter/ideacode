@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="JDBCConfig.properties">
+    </properties>
+
+    <typeAliases>
+        <!--typeAlias用于配置别名，type属性指定的是实体类全限定类名。alias指定别名 一旦配置上不再区分大小写-->
+        <!--        <typeAlias type="domain.User" alias="USER"></typeAlias>-->
+        <!--用于配置别名的包，当指定之后，该包下的实体类都会注册别名，指定之后，类名就是别名，不区分大小写-->
+        <package name="domain"></package>
+    </typeAliases>
+
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <!--                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                                <property name="url" value="jdbc:mysql:///maven?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+                                <property name="username" value="root"/>
+                                <property name="password" value="root"/>-->
+
+                <!--加载配置文件使用JDBCConfig.properties中的属性值-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper class="dao.IUserDao"></mapper>
+    </mappers>
+</configuration>

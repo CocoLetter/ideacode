@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea3122c0-d67a-4d4a-a243-7ef339408087" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1eOcXru3ncyvQPb5Uy9rG8xiG3F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/深入理解java虚拟机/heima/candy" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\深入理解java虚拟机\src\heima\candy" />
+      <recent name="C:\IdeaCode\深入理解java虚拟机\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\深入理解java虚拟机\out\production\深入理解java虚拟机\heima\candy" />
+      <recent name="C:\IdeaCode\深入理解java虚拟机\out\production\深入理解java虚拟机\META-INF" />
+      <recent name="C:\IdeaCode\深入理解java虚拟机\src\chapter16" />
+      <recent name="C:\IdeaCode\深入理解java虚拟机\src\chapter13" />
+      <recent name="C:\IdeaCode\深入理解java虚拟机\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.String">
+    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heima.DynamicProxyTest" />
+      <module name="深入理解java虚拟机" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FieldHasNoPolymorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heima.FieldHasNoPolymorphic" />
+      <module name="深入理解java虚拟机" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heima.Overload" />
+      <module name="深入理解java虚拟机" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.lang.String" />
+      <module name="深入理解java虚拟机" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.lang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heima.init.Test" />
+      <module name="深入理解java虚拟机" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heima.init.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.DynamicProxyTest" />
+      <item itemvalue="Application.Overload" />
+      <item itemvalue="Application.FieldHasNoPolymorphic" />
+      <item itemvalue="Application.String" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.String" />
+        <item itemvalue="Application.FieldHasNoPolymorphic" />
+        <item itemvalue="Application.Overload" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DynamicProxyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea3122c0-d67a-4d4a-a243-7ef339408087" name="Default Changelist" comment="" />
+      <created>1594196122965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594196122965</updated>
+      <workItem from="1594196126969" duration="2000" />
+      <workItem from="1594196157875" duration="6573000" />
+      <workItem from="1594267805349" duration="382000" />
+      <workItem from="1594268227479" duration="3362000" />
+      <workItem from="1594279146946" duration="3014000" />
+      <workItem from="1594282382930" duration="5806000" />
+      <workItem from="1594347504094" duration="5105000" />
+      <workItem from="1594431562926" duration="605000" />
+      <workItem from="1594553172087" duration="5397000" />
+      <workItem from="1594567728292" duration="702000" />
+      <workItem from="1594568468239" duration="88000" />
+      <workItem from="1594622072058" duration="16194000" />
+      <workItem from="1594690328643" duration="21174000" />
+      <workItem from="1594805894762" duration="1660000" />
+      <workItem from="1594830739026" duration="79000" />
+      <workItem from="1594867930377" duration="5948000" />
+      <workItem from="1594914735840" duration="2218000" />
+      <workItem from="1594952579638" duration="1619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="140" key="#Project_Structure" timestamp="1594196163117">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1594196163117" />
+    <state x="136" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594624963495">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="136" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1594624963495" />
+    <state x="558" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1594868113039">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="198" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1594868113039" />
+    <state x="461" y="402" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594556024235">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="402" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1504.963@0.0.1504.963" timestamp="1594556024235" />
+    <state x="483" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594709597839">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="483" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1594709597839" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1594389718401">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1594389718401" />
+    <state width="1461" height="259" key="GridCell.Tab.0.bottom" timestamp="1594959979917">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="259" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594959979917" />
+    <state width="1461" height="259" key="GridCell.Tab.0.center" timestamp="1594959979917">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="259" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1594959979917" />
+    <state width="1461" height="259" key="GridCell.Tab.0.left" timestamp="1594959979917">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="259" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1594959979917" />
+    <state width="1461" height="259" key="GridCell.Tab.0.right" timestamp="1594959979917">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="259" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1594959979917" />
+    <state width="1461" height="224" key="GridCell.Tab.1.bottom" timestamp="1594917802323">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="224" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594917802323" />
+    <state width="1461" height="224" key="GridCell.Tab.1.center" timestamp="1594917802322">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="224" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1594917802322" />
+    <state width="1461" height="224" key="GridCell.Tab.1.left" timestamp="1594917802322">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="224" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1594917802322" />
+    <state width="1461" height="224" key="GridCell.Tab.1.right" timestamp="1594917802323">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="224" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1594917802323" />
+    <state x="233" y="56" key="SettingsEditor" timestamp="1594650086381">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="233" y="56" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1594650086381" />
+    <state x="474" y="223" width="576" height="524" key="StructurePopup" timestamp="1594706265681">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="474" y="223" width="576" height="524" key="StructurePopup/0.0.1504.963@0.0.1504.963" timestamp="1594706265681" />
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594312610070">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1504.963@0.0.1504.963" timestamp="1594312610070" />
+    <state x="140" y="91" key="new project wizard" timestamp="1594956335543">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="91" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1594956335543" />
+    <state x="409" y="222" key="run.anything.popup" timestamp="1594312672774">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="409" y="222" key="run.anything.popup/0.0.1504.963@0.0.1504.963" timestamp="1594312672774" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1594885069484">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1594885069484" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-method">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/sql/DriverManager.java</url>
+          <line>566</line>
+          <properties class="java.sql.DriverManager" method="loadInitialDrivers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heima/DynamicProxyTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_212/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class</url>
+          <line>108</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

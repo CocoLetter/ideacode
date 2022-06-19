@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a2951bc-6008-4ec9-bc55-1246624db21d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="13" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+  </component>
+  <component name="ProjectId" id="1ZntKutBHcuixzAJ3Sh85oKUVHW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/35.会员版(2.0)-就业课(2.0)-Maven高级/35.会员版(2.0)-就业课(2.0)-Maven高级/60.maven高级/maven高级/代码/代码/代码/maven_day02_parent" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager" selected="JUnit.Test12.javaCallFunction">
+    <configuration name="Test12.javaCallFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_29_FirstOracleJdbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test12" />
+      <option name="METHOD_NAME" value="javaCallFunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test12.javaCallOracle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_29_FirstOracleJdbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test12" />
+      <option name="METHOD_NAME" value="javaCallOracle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test12.javaCallProcedure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_29_FirstOracleJdbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test12" />
+      <option name="METHOD_NAME" value="javaCallProcedure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test12.javaCallFunction" />
+        <item itemvalue="JUnit.Test12.javaCallProcedure" />
+        <item itemvalue="JUnit.Test12.javaCallOracle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a2951bc-6008-4ec9-bc55-1246624db21d" name="Default Changelist" comment="" />
+      <created>1585486625506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585486625506</updated>
+      <workItem from="1585486850608" duration="7350000" />
+      <workItem from="1585563720370" duration="2415000" />
+      <workItem from="1585631246914" duration="21000" />
+      <workItem from="1585631602609" duration="2603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1585640175294">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1585640175294" />
+    <state width="1461" height="207" key="GridCell.Tab.0.bottom" timestamp="1585495294017">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="207" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1585495294017" />
+    <state width="1461" height="207" key="GridCell.Tab.0.center" timestamp="1585495294016">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="207" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1585495294016" />
+    <state width="1461" height="207" key="GridCell.Tab.0.left" timestamp="1585495294016">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="207" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1585495294016" />
+    <state width="1461" height="207" key="GridCell.Tab.0.right" timestamp="1585495294016">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="207" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1585495294016" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="LIB">
+    <CLASSES>
+      <root url="file://C:/Program Files/Java/jdbcTemplate" />
+      <root url="file://C:/Program Files/Java/LIB/mysql" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files/Java/jdbcTemplate" recursive="false" />
+    <jarDirectory url="file://C:/Program Files/Java/LIB/mysql" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe id="myframe" src="//www.runoob.com">
+    <p>您的浏览器不支持  iframe 标签。</p>
+</iframe>
+
+<script>
+    document.getElementById("myframe").width=0.5*(window.innerWidth
+        || document.documentElement.clientWidth
+        || document.body.clientWidth);
+    document.getElementById("myframe").height=0.5*(window.innerHeight
+        || document.documentElement.clientHeight
+        || document.body.clientHeight);
+    document.getElementById("myframe").frameBorder="0";
+
+    document.getElementById("myframe").scrolling="no";
+</script>
+
+
+</body>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+</html>

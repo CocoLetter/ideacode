@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="jquery-3.4.1.min.js">//没有jquery-3.4.1.min.js文件时使用"https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+
+    <script>
+
+        $(function(){
+            var intervalID;
+            var imgs=["1.jpg",
+                "2.jpg",
+                "3.jpg"];
+            var index;
+            $("#stopid").prop("disabled",true);
+
+
+            $("#startid").click(function(){
+
+
+                $("#startid").prop("disabled",true);
+                $("#stopid").prop("disabled",false);
+
+                intervalID=setInterval(function(){
+                    index=Math.floor(Math.random()*3);
+                    $("#imgid").prop("src",imgs[index])
+                },20)
+
+
+
+            })
+
+            $("#stopid").click(function(){
+                $("#startid").prop("disabled",false);
+                $("#stopid").prop("disabled",true);
+
+                clearInterval(intervalID);
+                $("#Bigimg").prop("src",imgs[index])
+
+            })
+
+        })
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+<div>
+    <img id="imgid" src="1.jpg" width="300px" height="200"/>
+</div>
+<!--大相框-->
+<div style="position:absolute;right:40px;top:10px">
+    <img id="Bigimg" src="1.jpg" width="1000px" height="600"/>
+</div>
+
+
+<input type="button" value="开始" id="startid" style="width:200px;height:100px;border:1px solid pink">
+<input type="button" value="停止" id="stopid" style="width:200px;height:100px;border:1px solid pink">
+</body>
+</html>

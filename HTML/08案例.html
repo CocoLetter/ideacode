@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--
+    动态表格
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            /*border:red 1px solid;*/
+            margin:100px auto;
+            text-align:center ;
+        }
+        th{
+            border:2px black solid;
+            width:200px;
+            height:40px;
+        }
+
+        td{
+            border:2px black solid;
+            width:200px;
+            height:40px;
+        }
+        table ,th,td{
+            border-collapse: collapse;
+        }
+        #add_div{
+            margin-top:100px;
+            text-align: center;
+        }
+        #id,#name,#add_button{
+            margin-right:40px;
+            margin-left:20px;
+            padding-left: 5px;
+            border:2px #37b9e9 solid;
+            border-radius: 3px;
+            width: 150px;
+            height: 30px;
+        }
+
+        input[name="gender"]{
+
+            margin-left:10px;
+            width: 15px;
+            height: 15px;
+
+        }
+        #add_button{
+            text-align: center;
+            font-size: larger;
+        }
+
+        caption{
+            margin-bottom: 20px;
+            font-size: large;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+<form id="add_div" action="javascript:void(0)" onsubmit="fun2()" name="addform" >
+id<input type="number" id="id" name="id" required="required">
+名字<input type="text" id="name" name="name" required="required">
+性别:<input type="radio"  name="gender" required="required" value="male">男
+<input type="radio"  name="gender" required="required" value="female">女
+<input type="submit" id="add_button" value="添加">
+</form>
+
+
+<table id="table">
+    <caption>学生信息表</caption>
+    <tr>
+        <th>ID</th>
+        <th>性别</th>
+        <th>名字</th>
+        <th>操作</th>
+    </tr>
+</table>
+
+
+<script>
+    var fun=function(obj){
+
+        var table=obj.parentNode.parentNode.parentNode;
+        var td=obj.parentNode.parentNode;
+        table.removeChild(td);
+    }
+
+
+    var fun2=function () {
+        var text_delete=document.createTextNode("删除");
+        var a_delete=document.createElement("a");
+        a_delete.appendChild(text_delete);
+        a_delete.setAttribute("href","javascript:void(0)");
+        a_delete.setAttribute("onclick","fun(this)");
+        var td_delete=document.createElement("td");
+        td_delete.appendChild(a_delete);
+
+
+        /*
+        * innerHTML添加
+         */
+
+
+        var id=document.forms["addform"]["id"].value;
+        var name=document.forms["addform"]["name"].value;
+        var gender=document.forms["addform"]["gender"].value;
+        var table=document.getElementById("table");
+        table.innerHTML +=" <tr>\n" +
+            "        <td>"+id+"</td>\n" +
+            "        <td>"+gender+"</td>\n" +
+            "        <td>"+name+"</td>\n" +
+            "        <td><a href='javascript:void(0)' onclick='fun(this)'>删除</a></td>\n" +
+            "    </tr>";
+
+
+
+        // var table = document.getElementsByTagName("table")[0];
+        // table.innerHTML +=" <tr>\n" +
+        //     "        <td>"+id+"</td>\n" +
+        //     "        <td>"+gender+"</td>\n" +
+        //     "        <td>"+name+"</td>\n" +
+        //     "        <td><a href=\"javascript:void(0)\" onclick=\"fun(this)\">删除</a></td>\n" +
+        //     "    </tr>";
+
+/*
+
+
+        对象添加方式
+
+
+        var td_id=document.createElement("td");
+        var td_name=document.createElement("td");
+        var td_gender=document.createElement("td");
+
+        td_id.innerHTML=id;
+        td_name.innerHTML=name;
+        td_gender.innerHTML=gender;
+
+
+        var tr=document.createElement("tr");
+        tr.appendChild(td_id);
+        tr.appendChild(td_name);
+        tr.appendChild(td_gender);
+        tr.appendChild(td_delete);
+
+        var table=document.getElementById("table");
+        table.appendChild(tr);
+*/
+
+
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:property-placeholder location="classpath:jdbcConfig.properties"/>
+
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="com.Utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+    <bean id="connectionUtils" class="com.Utils.ConnectionUtils">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+<!--    dao-->
+    <bean id="accountDaoImpl" class="com.dao.impl.AccountDaoImpl">
+        <property name="runner" ref="runner"></property>
+        <!-- 注入ConnectionUtils -->
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+<!--    runner-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+    </bean>
+
+<!-- 配置业务层-->
+    <bean id="accountService" class="com.service.Impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDaoImpl"></property>
+    </bean>
+
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+<!--切面配置-->
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* com.service.Impl.*.*(..))"/>
+        <aop:aspect id="txAdvice" ref="transactionManager">
+            <!--配置前置通知：开启事务-->
+            <aop:before method="beginTransaction" pointcut-ref="pt1"></aop:before>
+            <!--配置后置通知：提交事务-->
+            <aop:after-returning method="commit" pointcut-ref="pt1"></aop:after-returning>
+            <!--配置异常通知：回滚事务-->
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"></aop:after-throwing>
+            <!--配置最终通知：释放连接-->
+            <aop:after method="release" pointcut-ref="pt1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+
+
+
+
+</beans>

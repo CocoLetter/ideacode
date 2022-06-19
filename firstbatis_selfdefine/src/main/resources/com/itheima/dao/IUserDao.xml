@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="com.itheima.dao.IUserDao">
+    <!-- SQL语句 -->
+    <!--配置查询所有-->
+    <!--id要和对应接口的方法名称保持一致，命名空间和id保证了该条语句的一致性-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from mybatis
+    </select>
+</mapper>

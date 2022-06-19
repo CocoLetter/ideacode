@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        td{
+            border:1px black solid;
+        }
+
+    </style>
+
+    <script>
+
+        document.write("<table align='center'>");
+        for(var i =1;i<10;i++){
+            document.write("<tr>");
+            for(var j =1;j<=i;j++){
+                document.write("<td>");
+                document.write(i+"*"+j+"="+i*j);
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+        /*函数的定义*/
+
+        function fun2(a,b){
+            alert(a+b);
+        }
+
+        var fun3=function(a,b){
+            alert(a+b);
+        }
+
+        fun3(2,3);
+        fun2(3,4);
+
+        /*方法的调用*/
+        fun2(1);
+        fun2(1,2);
+        fun2(1,2,3);
+        //JS中传入参数可以少于需要的参数
+        //方法中有个隐藏的内置对象(数组)，arguments封装所有的实际参数
+        //求任意个数的和
+        function add(){
+            var sum =0;
+            for (var i = 0; i <arguments.length ; i++) {
+                sum+=arguments[i];
+            }
+            return sum;
+        }
+
+        alert(add(1,2,3,4,5));
+
+        //array对象
+        //
+        /*
+        1.创建
+            1.var arr=new Array(元素列表)
+            2.var arr=new Array(默认长度)
+            3.var arr=[元素列表]
+        2.方法
+        .join(参数) 将数组元素以参数为连接符连接
+        .push(元素) 添加元素
+
+
+        3.特点
+        数组元素类型是可变的
+        长度可变
+            var arr2=new Array(5);
+            数组设置arr2[10]="heihiei"
+            数组长度变为11中间元素为undefined
+
+
+         */
+        var arr1=new Array(1,2,3);
+        var arr2=new Array(5);
+        var arr3=[1,2,3,4];
+        var arr4=[null,1,"String",undefined]
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IUserDao">
+   <!-- 表示当前mapper开启二级标签-->
+
+    <cache></cache>
+
+    <resultMap id="accountUserMap" type="account">
+        <id property="id" column="id"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!-- 一对一的关系映射：配置封装user的内容
+        select属性指定的内容：查询用户的唯一标识：
+        column属性指定的内容：用户根据id查询时，所需要的参数的值
+        -->
+        <association property="user" column="uid" javaType="User" select="findById"></association>
+    </resultMap>
+
+    <!-- 查询所有 -->
+    <select id="findAllAccount" resultMap="accountUserMap">
+        select * from account
+    </select>
+
+
+
+    <select id="findById" parameterType="INT" resultType="User" useCache="true">
+        select * from user where id = #{uid}
+    </select>
+
+
+    <resultMap id="userAccountMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <!-- 配置user对象中accounts集合的映射 -->
+        <collection property="accountList" ofType="accountList" select="findAccountByUserId" column="id"></collection>
+    </resultMap>
+
+
+
+    <select id="findAllUser" resultMap="userAccountMap">
+        select * from user
+    </select>
+
+    <select id="findAccountByUserId"  parameterType="INT" resultMap="accountUserMap">
+        select * from account where uid=#{id}
+    </select>
+
+
+    <update id="updateUser" parameterType="user">
+        update user set username=#{username},address=#{address} where id=#{id}
+    </update>
+</mapper>

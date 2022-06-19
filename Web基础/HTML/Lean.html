@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+    <script>
+        var num=3;
+        var b=+"abc";
+        // alert(typeof(b));
+        // String 转number，按照字面值钻换，如果字面值不是数字，则转为NaN，不是数字的数字
+        // NaN和任意数字运算都是NaN
+        // alert(b+1);
+        var flag=true;
+        document.write(b+1);
+        document.write("<br>");
+        document.write(flag+"<br>");
+        var flag1=true;
+        document.write(++flag);
+        var a=2;
+        var b=4;
+        var c=a>b?1:0;
+        document.write("<br>");
+        document.write(c);
+        var n =undefined;
+        switch(n){
+            case 1:
+                alert("number");
+                break;
+            case "abc":
+                alert("String");
+                break;
+            case true:
+                alert("boolean");
+                break;
+            case null:
+                alert("null");
+                break;
+            case undefined:
+                alert("undefined");
+                break;
+        }
+
+        document.write("<br>");
+
+        var i =0;
+        var sum =0;
+        while(i<=100){
+            sum +=i;
+            i++;
+        }
+        document.write(sum);
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+<img src="Snipaste_2020-02-14_19-48-401.png"/>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <script>
+
+
+        window.onload=function(){
+            // document.getElementById("username").onblur=function(){
+            //     alert("失去焦点");
+            // };
+
+            //确定鼠标按下了那个按键
+            // document.getElementById("username").onmousedown=function(event){
+            //     alert(event.button);
+            // };
+            // document.getElementById("username").onmouseover=function(){
+            //     alert("onmouseover");
+            // };
+            //键盘
+            // document.getElementById("username").onkeydown=function(){
+            //         if(event.keyCode==13){
+            //             alert("提交表单");
+            //         }
+            // }
+            // document.getElementById("username").onchange=function(){
+            //     alert("变了");
+            // }
+            // document.getElementById("select").onchange=function(){
+            //     alert("变了");
+            // }
+            // document.getElementById("form").onsubmit=function(){
+            //     return false;
+            // }
+
+            var form = document.getElementById("form");
+            form.onsubmit=function(){
+                return false;
+            };
+
+
+        }
+
+
+        function checkform(){
+            return false;
+        }
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+<!--<form name="myForm" action="#" onsubmit="return validateForm()" method="get">-->
+<form action="#" onsubmit="checkform" method="get" id="form">
+<input id="username" type="text" name="username">
+<!--<select id="select">-->
+<!--    <option>请选择</option>-->
+<!--    <option value="beijing">北京</option>-->
+<!--    <option>上海</option>-->
+<!--    <option>天津</option>-->
+<!--</select>-->
+<input type="submit" value="提交">
+</form>
+</body>
+</html>

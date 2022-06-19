@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!-- 配置spring创建容器时要扫描的包-->
+    <context:component-scan base-package="xml"></context:component-scan>
+
+    <!-- 配置spring开启注解AOP的支持 -->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+
+
+    <!--配置代理的service-->
+    <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"></bean>
+
+    <!--配置beanfactory-->
+    <bean id="beanFactory" class="xml.factory.BeanFactory">
+        <property name="accountService" ref="accountServiceImpl_proxy"></property>
+        <!-- 注入事务管理器 -->
+        <property name="transactionManager" ref="txManager"></property>
+
+    </bean>
+
+    <bean id="accountServiceImpl_proxy" class="xml.service.Impl.AccountServiceImpl_proxy">
+        <!-- 注入dao -->
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+
+    <!-- 配置Service -->
+    <bean id="accountService" class="xml.service.Impl.AccountServiceImpl">
+        <!-- 注入dao -->
+        <property name="accountDao" ref="accountDao"></property>
+
+        <property name="txManager" ref="txManager"></property>
+    </bean>
+
+
+
+    <bean name="accountDao" class="xml.dao.impl.AccountDaoImpl">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+        <property name="runner" ref="runner"></property>
+    </bean>
+
+    <bean id="txManager" class="xml.Utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+
+    <!-- 配置Connection的工具类 ConnectionUtils -->
+    <bean id="connectionUtils" class="xml.Utils.ConnectionUtils">
+        <!-- 注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置QueryRunner-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"></bean>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///maven?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+
+</beans>

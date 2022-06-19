@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Chapter22_SSM_Redis:war">
+    <output-path>$PROJECT_DIR$/Chapter22_SSM_Redis_self/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Chapter22_SSM_Redis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Chapter22_SSM_Redis-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Chapter22_SSM_Redis:war exploded" />
+    </root>
+  </artifact>
+</component>

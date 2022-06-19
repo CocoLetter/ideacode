@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e8bf5b2-4102-4a1c-bc42-30af961a17fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\SoftWare\apache-maven\maven-repository" />
+        <option name="mavenHome" value="C:/SoftWare/apache-maven/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+        <option name="userSettingsFile" value="C:\SoftWare\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="basedir" value="C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Xms128m -Xmx512m -DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=C:\SoftWare\apache-maven\apache-maven-3.6.3" />
+  </component>
+  <component name="ProjectId" id="1duGvXliJwTToFW71tDuvJk6Njf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../深入理解java虚拟机" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaCode\JAVA基础教程\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConstructorExtend">
+    <configuration name="ConstructorExtend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructorExtend" />
+      <module name="JAVA基础教程" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorExtend.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA基础教程" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorExtend" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorExtend.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA基础教程" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorExtend" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorExtend.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA基础教程" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorExtend" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOtest.testObjectInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA基础教程" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IOtest" />
+      <option name="METHOD_NAME" value="testObjectInputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConstructorExtend" />
+        <item itemvalue="JUnit.ConstructorExtend.test3" />
+        <item itemvalue="JUnit.ConstructorExtend.test2" />
+        <item itemvalue="JUnit.ConstructorExtend.test1" />
+        <item itemvalue="JUnit.IOtest.testObjectInputStream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e8bf5b2-4102-4a1c-bc42-30af961a17fb" name="Default Changelist" comment="" />
+      <created>1593267795727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593267795727</updated>
+      <workItem from="1593267798627" duration="826000" />
+      <workItem from="1593401546684" duration="9975000" />
+      <workItem from="1593503702151" duration="3238000" />
+      <workItem from="1593526735202" duration="2057000" />
+      <workItem from="1593567236251" duration="12421000" />
+      <workItem from="1593688348991" duration="4942000" />
+      <workItem from="1593826869109" duration="11142000" />
+      <workItem from="1593920835476" duration="6846000" />
+      <workItem from="1594003739102" duration="11111000" />
+      <workItem from="1594126470618" duration="599000" />
+      <workItem from="1594196075660" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="140" key="#Project_Structure" timestamp="1594029694442">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1594029694442" />
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1594039122636">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1594039122636" />
+    <state x="483" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594029800233">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="483" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1594029800233" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1594196155233">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1594196155233" />
+    <state width="1461" height="317" key="GridCell.Tab.0.bottom" timestamp="1594054393437">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594054393437" />
+    <state width="1461" height="317" key="GridCell.Tab.0.center" timestamp="1594054393437">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1594054393437" />
+    <state width="1461" height="317" key="GridCell.Tab.0.left" timestamp="1594054393437">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1594054393437" />
+    <state width="1461" height="317" key="GridCell.Tab.0.right" timestamp="1594054393437">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1594054393437" />
+    <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1594054393438">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1594054393438" />
+    <state width="1461" height="317" key="GridCell.Tab.1.center" timestamp="1594054393438">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1594054393438" />
+    <state width="1461" height="317" key="GridCell.Tab.1.left" timestamp="1594054393437">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1594054393437" />
+    <state width="1461" height="317" key="GridCell.Tab.1.right" timestamp="1594054393438">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1594054393438" />
+    <state x="233" y="56" key="SettingsEditor" timestamp="1594029640268">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="233" y="56" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1594029640268" />
+    <state x="474" y="223" width="576" height="524" key="StructurePopup" timestamp="1594042003371">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="474" y="223" width="576" height="524" key="StructurePopup/0.0.1504.963@0.0.1504.963" timestamp="1594042003371" />
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593863016402">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="375" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1504.963@0.0.1504.963" timestamp="1593863016402" />
+    <state x="231" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593573282335">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="231" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1504.963@0.0.1504.963" timestamp="1593573282335" />
+    <state x="140" y="91" key="new project wizard" timestamp="1594196121940">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="91" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1594196121940" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1594041480188">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1594041480188" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-field">
+          <url>jar://C:/Program Files/Java/jdk-13/lib/src.zip!/java.base/java/lang/String.java</url>
+          <line>149</line>
+          <properties field="value" class="java.lang.String" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

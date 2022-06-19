@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.4.1.min.js">
+    </script>
+    <script>
+        $(function(){
+            $("#username").blur(function(){
+                var username=$(this).val();
+                $.get("/findUserServlet",{username:username},function(data){
+                    //alert(data);
+                    var span=$("#check");
+                    ////alert("user:"+data.userExit);
+                    if(data.userExit){
+                        //alert("tom"+data.msg);
+                        span.css("color","red");
+                       span.html(data.msg);
+                    }else{
+                        //alert("not tom");
+                        //alert(data.msg);
+                        span.css("color","green");
+                        span.html(data.msg);
+                    }
+                },"json");//解决方式一
+            })
+        })
+    </script>
+</head>
+<body>
+<form action="#" method="get">
+    <input type="text" placeholder="输入姓名" id="username">
+    <span id="check"></span>
+    <br>
+    <input type="text" placeholder="输入密码" id="pwd"> <br>
+    <input type="submit" value="注册"> <br>
+</form>
+</body>
+</html>
